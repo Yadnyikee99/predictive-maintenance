@@ -5,8 +5,8 @@ This project focuses on predictive maintenance using machine learning techniques
 
 The project utilizes vibration signal datasets from:
 
-IMS Bearing Dataset
-IMS Cross-Domain Dataset
+IMS Bearing Dataset, 
+IMS Cross-Domain Dataset, 
 XJTU-SY Bearing Dataset
 
 The main objective is to develop a scalable and reliable fault diagnosis pipeline capable of identifying bearing conditions using statistical vibration features.
