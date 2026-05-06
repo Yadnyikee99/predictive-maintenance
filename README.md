@@ -66,39 +66,55 @@ Feature Engineering
 The following statistical features were extracted from vibration signals:
 
 Time-Domain Features
+
 Mean
+
 Standard Deviation
+
 RMS
+
 Variance
+
 Skewness
+
 Kurtosis
-Peak-to-Peak
+
 Crest Factor
-Shape Factor
-Impulse Factor
+
 Frequency-Domain Features
-Spectral Mean
+
 Spectral Entropy
+
 Dominant Frequency
-Frequency Variance
+
 FFT-based Statistical Features
+
 Exploratory Data Analysis (EDA)
 
 EDA was performed to:
 
 Analyze feature distributions
+
 Detect missing values
+
 Identify outliers
+
 Study class imbalance
+
 Understand correlations between features
+
 Compare healthy and faulty bearing conditions
 
 Visualization techniques included:
 
 Histograms
+
 Boxplots
+
 Heatmaps
+
 Correlation matrices
+
 Feature importance plots
 
 Project Structure
@@ -106,50 +122,77 @@ Project Structure
 predictive-maintenance-project/
 │
 ├── data/
+
 │   ├── ims_features.csv
+
 │   ├── ims_crossdomain.csv
+
 │   ├── xjtu_features.csv
 │
 ├── notebooks/
 │   ├── preprocessing.ipynb
+
 │   ├── eda.ipynb
+
 │   ├── model_training.ipynb
+
 │
 ├── results/
 │   ├── confusion_matrix.png
+
 │   ├── feature_importance.png
+
 │   ├── correlation_heatmap.png
+
 │
 ├── README.md
+
 ├── requirements.txt
 
 
 Key Findings
 Statistical vibration features are highly effective for bearing fault diagnosis.
+
 Time-domain features outperform frequency-domain features.
+
 Random Forest achieved near-perfect classification accuracy.
+
 Cross-domain datasets help evaluate real-world model robustness.
+
 Feature engineering significantly improves predictive performance.
+
 Future Scope
 
 Potential future improvements include:
 
 Deep learning-based fault diagnosis
+
 Transfer learning for domain adaptation
+
 Real-time predictive maintenance systems
+
 Edge AI deployment for industrial monitoring
+
 Explainable AI for fault interpretation
+
 Applications
 
 This project can be applied in:
 
 Manufacturing industries
+
 Smart factories
+
 Industrial IoT systems
+
 Rotating machinery monitoring
+
 Aerospace maintenance
+
 Automotive predictive maintenance
+
 Energy and power plants
+
 Author
 
 Yadnikee
