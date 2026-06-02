@@ -161,6 +161,14 @@ Cross-domain datasets help evaluate real-world model robustness.
 
 Feature engineering significantly improves predictive performance.
 
+![Project Pipeline](images/API.png)
+
+![Project Pipeline](images/OP.png)
+![Project Pipeline](images/OP1.png)
+
+
+
+
 Future Scope
 
 Potential future improvements include:
