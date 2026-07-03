@@ -75,8 +75,8 @@ API Response Example
 
 Project Structure:
 
+```
 predictive-maintenance/
-│
 ├── data/
 │   ├── ims_features.csv
 │   ├── ims_features_crossdomain.csv
@@ -92,6 +92,7 @@ predictive-maintenance/
 │
 ├── README.md
 └── requirements.txt
+```
 
 Key Findings:
 
